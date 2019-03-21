@@ -1,0 +1,88 @@
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+}
+.rct-page-content {
+  padding: $grid-gutter-width; //24px;
+}
+
+.main-heading {
+  font-size: 16px;
+  color: $gray-800;
+  font-weight: 500;
+}
+
+//Loader
+.loading-shading-mui {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-icon-mui {
+  position: absolute;
+  font-size: 20px;
+  top: calc(45% - 10px);
+  left: calc(50% - 10px);
+}
+
+.SideBar-LogoWrapper {
+  margin-top: 9%;
+  text-align: center;
+  h2 {
+    color: #757575;
+  }
+}
+
+//Header
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  .header {
+    right: 0;
+    position: absolute;
+  }
+}
+
+//Footer
+.rct-footer {
+  box-shadow: $footer-box-shadow;
+  background-color: $footer-bg;
+  background-color: $footer-bg;
+  padding: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  h5 {
+    margin-bottom: 0;
+    color: $gray-600;
+    font-size: 0.875rem; //14px;
+  }
+}
+
+.error-code {
+  margin-top: 5%;
+  color: #a7abb9;
+  font-weight: 500;
+  font-size: 45px;
+  text-align: center;
+  line-height: 1;
+
+  @media screen and (max-width: 991px) {
+    font-size: 40px;
+  }
+
+  @media screen and (max-width: 767px) {
+    font-size: 36px;
+  }
+
+  @media screen and (max-width: 575px) {
+    font-size: 30px;
+  }
+}

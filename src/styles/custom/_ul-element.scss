@@ -1,0 +1,7 @@
+.btn *,
+a[role="button"],
+button[type="button"] {
+  outline: none;
+  text-transform: capitalize;
+  font-weight: $font-weight-normal;
+}

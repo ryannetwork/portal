@@ -1,0 +1,63 @@
+.login-container {
+  position: relative;
+  height: 100%;
+  margin-top: 20vh;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+}
+
+.login-header {
+  margin-bottom: 30px;
+}
+
+.login-content .form-control {
+  background-color: $white;
+
+  &:focus {
+    box-shadow: none;
+    border-color: $primary;
+  }
+}
+
+.login-content .btn,
+.login-content .jr-btn {
+  padding: 8px 35px !important;
+}
+
+.login-title {
+  width: 420px;
+  margin: auto;
+  padding: 10px 20px 5px;
+  font-size: 22px;
+  max-width: 94%;
+  color: $primary;
+}
+
+.login-content {
+  width: 420px;
+  margin: auto;
+  padding: 35px 35px 20px;
+  background-color: $white;
+  @include box-shadow($block-shadow);
+  @include border-radius(4px);
+  font-size: 14px;
+  max-width: 94%;
+}
+
+.password-content {
+  width: 500px;
+  padding: 35px 35px 30px;
+  background-color: $white;
+  @include box-shadow($block-shadow);
+  @include border-radius(4px);
+  font-size: 14px;
+  max-width: 94%;
+}
+
+.social{
+  border-radius: 50%;
+  height:40px;
+  width:40px;
+}
